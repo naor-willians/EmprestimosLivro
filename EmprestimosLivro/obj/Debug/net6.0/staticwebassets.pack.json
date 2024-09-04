@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\EmprestimosLivro.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projetos ASP\\App EmprestimosLivro\\EmprestimosLivro\\EmprestimosLivro\\wwwroot\\css\\Materia.css",
+      "PackagePath": "staticwebassets\\css\\Materia.css"
+    },
+    {
       "Id": "D:\\Projetos ASP\\App EmprestimosLivro\\EmprestimosLivro\\EmprestimosLivro\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Projetos ASP\\App EmprestimosLivro\\EmprestimosLivro\\EmprestimosLivro\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projetos ASP\\App EmprestimosLivro\\EmprestimosLivro\\EmprestimosLivro\\wwwroot\\img\\read_book_study_icon-icons.com_51077.png",
+      "PackagePath": "staticwebassets\\img\\read_book_study_icon-icons.com_51077.png"
     },
     {
       "Id": "D:\\Projetos ASP\\App EmprestimosLivro\\EmprestimosLivro\\EmprestimosLivro\\wwwroot\\js\\site.js",
