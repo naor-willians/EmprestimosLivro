@@ -32,6 +32,8 @@ namespace EmprestimosLivro.Controllers
                 _context.Emprestimos.Add(emprestimo);
                 _context.SaveChanges();
 
+                TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
+
                 return RedirectToAction("Index");
             }
 
@@ -39,7 +41,7 @@ namespace EmprestimosLivro.Controllers
         }
 
         [HttpGet]
-        public IActionResult Editar(int? id) 
+        public IActionResult Editar(int? id)
         { 
             if(id == null || id == 0)
             {
@@ -60,6 +62,8 @@ namespace EmprestimosLivro.Controllers
             {
                 _context.Emprestimos.Update(emprestimoEditado);
                 _context.SaveChanges();
+
+                TempData["MensagemSucesso"] = "Edição realizado com sucesso!";
 
                 return RedirectToAction("Index");
             }
@@ -84,6 +88,8 @@ namespace EmprestimosLivro.Controllers
             {
                 _context.Emprestimos.Remove(emprestimo);
                 _context.SaveChanges();
+
+                TempData["MensagemSucesso"] = "Exclusão realizado com sucesso!";
 
                 return RedirectToAction("Index");
             }
